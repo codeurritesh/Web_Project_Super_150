@@ -1,0 +1,121 @@
+#nav{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(36, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cont{
+    display: flex;
+    color: white;
+} p{
+    margin-left: 20px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    display: flex;
+        color: white;
+
+}
+i{
+    font-size: 50px;
+    color: white;
+}
+#book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    width:180px;
+    height: 50px;
+    border: 5px  #29d9d5 solid;
+}
+#top{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ttop{
+    width: 80%;
+    height: 80px;
+    border-radius: 20px;
+    background-color: rgba(243, 192, 255, 0.619);
+    padding-left: 50px;
+    padding-top: 20px;
+}
+h2{
+    color: rgb(0, 0, 124);
+    margin-left: 20px;
+}
+img{
+    width: 480px;
+    height: 300px;
+    border-radius: 20px ;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#fullimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#niche{
+    width: 100%;
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1562047304-af6c44c58821?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+}
+
+#butt{
+    width: 1100px;
+ text-align: center;
+}
+#book1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    width:180px;
+    height: 50px;
+    margin-left: 450px;
+    margin-top: 80px;
+    border: 5px  #29d9d5 solid;
+}
+.about{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+#p1 , #p2 ,#p3
+{
+    padding-top: 100px;
+color: white;
+width: 300px;
+
+}
+/* h1{
+    margin-top: 0px;
+    color: white;
+} */
+img:hover{
+    background-color: azure;
+    opacity: 50%;
+}
